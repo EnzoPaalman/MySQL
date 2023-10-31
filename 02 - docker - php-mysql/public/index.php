@@ -6,36 +6,40 @@
 
 <body>
 
-    <nav class="navbar">
-        <h1 class="navbar-title">Muziek </h1>
+    <nav class="nav">
+        <img src="img/E_SDG_logo_UN_emblem_square_trans_WEB-1024x879.webp" alt="NvvN">
+        <ul class="list">
+            <li class="listitem">Sdg's</li>
+            <li class="listitem">Game</li>
+            <li class="listitem">Contact</li>
+        </ul>
     </nav>
     <div class="content">
-        <!-- Zoekformulier -->
-        <form id="search-form">
-            <label for="genre"></label>
-            <select id="genre">
-                <option value="">Alle genres</option>
-                <option value="Pop">Rap</option>
-                <option value="Rock">Cloud Rap</option>
-                <!-- Voeg hier meer genres toe -->
-            </select>
-            <input type="text" id="search-input" placeholder=" Titel of Artiest...">
-            <button type="submit">Zoeken</button>
-        </form>
-
         <!-- Resultaten worden hier weergegeven -->
 
         <div id="results">
-            <?php
-            // Inclusief het singles.php-document om gegevens op te halen
-            include '../source/data.php';
-            foreach ($library as $single) {
-                include '../source/views/card.php';
-            }
-            ?>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slider-inner">
+            
+                    <?php
+                    // Inclusief het singles.php-document om gegevens op te halen
+                    include '../source/data.php';
+                    foreach ($library as $single) {
+                        include '../source/views/card.php';
+                    }
+                    ?>
+                        </div>
+        </div>
+        <div class="slider-buttons">
+            <button id="prev" class="slider-button">←</button>
+            <button id="next" class="slider-button">→</button>
         </div>
     </div>
-    <script src="script.js"></script>
+        </div>
+    </div>
+
+    <script src="JS/main.js"></script>
 </body>
 
 </html>

@@ -4,91 +4,70 @@ $library =
     [
         [
             'id' => 1,       
-            'artist' => 'Bladee',
-            'titel' => '1D',
-            'leeftijd' => '29',
-            'image' => './img/1d.jpg',
-            'genre' => 'Cloud Rap'
+            'image' => './img/sdg1.png',
         ],
         [
             'id' => 2,
-            'artist' => 'Duwap Kaine',
-            'titel' => 'Faint',
-            'leeftijd' => '21',
-            'image' => './img/faint.jpg',
-            'genre' => 'Alternative Rap'
-
+            'image' => './img/sdg2.png',
         ],
         [
             'id' => 3,
-            'artist' => 'King Krule',
-            'titel' => 'Easy Easy',
-            'leeftijd' => '29',
-            'image' => './img/easy.jpg',
-            'genre' => 'jazz'
-
+            'image' => './img/sdg3.png',
         ],
         [
             'id' => 4,
-            'artist' => 'Tana',
-            'titel' => 'KNOYA',
-            'leeftijd' => '16',
-            'image' => './img/knoya.jpg',
-            'genre' => 'Alternative Rap'
-
+            'image' => './img/sdg4.png',
         ],
         [
             'id' => 5,
-            'artist' => 'louisvos',
-            'titel' => 'louisvos appelsap verse',
-            'leeftijd' => '33',
-            'image' => './img/louisvos.jpg',
-            'genre' => 'Rap'
-
+            'image' => './img/sdg5.png',
         ],
         [
             'id' => 6,
-            'artist' => 'Kodak Black',
-            'titel' => 'Humble Haitian',
-            'leeftijd' => '26',
-            'image' => './img/humblehaitian.jpg',
-            'genre' => 'Rap'
-
+            'image' => './img/sdg6.png',
         ],
         [
             'id' => 7,
-            'artist' => 'BabyTron',
-            'titel' => 'Frankenstein',
-            'leeftijd' => '23',
-            'image' => './img/frankenstein.jpg',
-            'genre' => 'Rap'
-
+            'image' => './img/sdg7.png',
         ],
         [
             'id' => 8,
-            'artist' => 'Lucki',
-            'titel' => 'Coincidence',
-            'leeftijd' => '27',
-            'image' => './img/coincidence.jpg',
-            'genre' => 'Rap'
-
+            'image' => './img/sdg8.png',
         ],
         [
             'id' => 9,
-            'artist' => 'Lil Uzi Vert',
-            'titel' => 'Top',
-            'leeftijd' => '28',
-            'image' => './img/top.jpg',
-            'genre' => 'Rap'
-
+            'image' => './img/sdg9.png',
         ],
         [
             'id' => 10,
-            'artist' => 'Izaya Tiji',
-            'titel' => 'What it seems',
-            'leeftijd' => '22',
-            'image' => './img/whatitseems.jpg',
-            'genre' => 'Alternative rap'
-
+            'image' => './img/sdg10.png',
+        ],
+        [
+            'id' => 11,
+            'image' => './img/sdg11.png',
+        ],
+        [
+            'id' => 12,
+            'image' => './img/sdg12.png',
+        ],
+        [
+            'id' => 13,
+            'image' => './img/sdg13.png',
+        ],
+        [
+            'id' => 14,
+            'image' => './img/sdg14.png',
+        ],
+        [
+            'id' => 15,
+            'image' => './img/sdg15.png',
+        ],
+        [
+            'id' => 16,
+            'image' => './img/sdg16.png',
+        ],
+        [
+            'id' => 17,
+            'image' => './img/sdg17.png',
         ],
     ];
