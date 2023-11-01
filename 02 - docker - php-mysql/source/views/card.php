@@ -1,4 +1,6 @@
-<div class="single">
-    <img src="<?= $single["image"]?>" alt="sdg image">
-</div>
- 
+<article>
+<a href="<?= $sdgItem["ID"] ?>" class="slider">
+<img src="/img/<?= $sdgItem["img"]?>" alt="image">
+
+</a>
+</article>
