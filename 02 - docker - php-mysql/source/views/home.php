@@ -1,7 +1,7 @@
 <?php
 // loop door het resultaat
 // voorbeeld met het ophalen van alle data en dan de titel weer te geven
-$sql = 'SELECT * FROM sdgs ORDER BY id';
+$sql = 'SELECT * FROM sdgs ORDER BY ID';
 $result = $connection->query($sql);
 
 // ik loop door het resultaat uit de database heen

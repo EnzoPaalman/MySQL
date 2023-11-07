@@ -1,14 +1,15 @@
 <?php
 
-$sql = 'SELECT 
-        FROM sdg 
-        WHERE id=?
-        ORDER BY titel';
+$id = ( int ) $_GET['id'];
 
+$sql = 'SELECT * 
+        FROM sdgs 
+        WHERE ID=?
+        ORDER BY Titel';
 
-$stmt = $mysqli->prepare($sql);
+$stmt = $connection->prepare($sql);
 
-$stmt->bind_param('i', $ID);
+$stmt->bind_param('i', $id);
 
 
 $stmt->execute();
@@ -22,10 +23,10 @@ $sdgItem = mysqli_fetch_assoc($result);
 ?>
 <article>
     <h2>
-        <?= $sdgItem['title'] ?>
+        <?= $sdgItem['Titel'] ?>
     </h2>
-    <img src="<?= $sdgItem['img'] ?>">
+    <img src="/img/<?= $sdgItem['img'] ?>">
     <p>
-        <?= $sdgItem['content'] ?>
+        <?= $sdgItem['beschrijving'] ?>
     </p>
 </article>

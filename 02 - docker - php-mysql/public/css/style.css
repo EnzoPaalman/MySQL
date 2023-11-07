@@ -81,3 +81,8 @@ img {
     justify-content: center; /* Center buttons horizontally */
 }
 
+.game-button{
+    align-items: center;
+    
+}
+

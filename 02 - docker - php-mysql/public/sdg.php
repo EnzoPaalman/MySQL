@@ -24,24 +24,12 @@ require_once( SOURCE_PATH . 'database.php');
     </nav>
     <div class="content">
         <!-- Resultaten worden hier weergegeven -->
+        <?php
 
-        <div id="results">
-            <div class="slider-container">
-                <div class="slider">
-                    <div class="slider-inner">
-                    <?php
+        include(VIEWS_PATH . 'single.php');
 
-                    include(VIEWS_PATH . 'home.php');
-
-                    ?> 
-                    </div>
-                </div>
-            <div class="slider-buttons">
-                <button id="prev" class="slider-button">←</button>
-                <button id="next" class="slider-button">→</button>
-            </div>
-        </div>
-        </div>
+        ?> 
+        HIER KOMT DE SDG
     </div>
 
     <script src="JS/main.js"></script>
